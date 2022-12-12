@@ -1,0 +1,47 @@
+header{
+    min-height: 150px;
+    background-image: url(ToDo.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    max-width: 500px;
+    min-height: 350px;
+    padding: 40px;
+    margin: 0 auto 80px auto;
+    border-radius: 5px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+  background-image: linear-gradient(to right, rgb(116, 194, 204) , rgb(255, 255, 255));
+}
+
+.textbar{
+    width: 450px;
+    margin: 10px auto 10px auto;
+    height: 40px;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    display: block;
+    font-size: 17px;  
+}
+
+.submitbtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color:  rgb(116, 194, 204);
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    min-width: 100px;
+    color: rgb(218, 210, 210);
+}
